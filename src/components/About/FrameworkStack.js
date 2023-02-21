@@ -1,33 +1,29 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiLinux,
-  SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
+  SiReact,
+  SiDjango,
+  SiSpring
 } from "react-icons/si";
+import { FaPhoenixFramework } from "react-icons/fa";
 
-function Toolstack() {
+function FrameworkStack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiSpring />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <FaPhoenixFramework />
       </Col>
     </Row>
   );
 }
 
-export default Toolstack;
+export default FrameworkStack;

@@ -1,55 +1,65 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
-} from "react-icons/di";
-import {
-  SiPytorch,
-  SiFirebase,
-  SiNextdotjs,
+  SiRacket,
+  SiCplusplus,
+  SiCsharp,
+  SiC,
+  SiJava,
+  SiPython,
+  SiJavascript,
+  SiTypescript,
+  SiElixir,
+  SiAssemblyscript,
+  SiLua,
+  SiArduino,
 } from "react-icons/si";
 
-function Techstack() {
+function LanguageStack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiCplusplus />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <SiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <SiJavascript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiPython />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCsharp />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <SiElixir />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiTypescript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <SiRacket />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiC />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiAssemblyscript />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiLua />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPytorch />
+        <SiArduino />
       </Col>
+
     </Row>
   );
 }
 
-export default Techstack;
+export default LanguageStack;
