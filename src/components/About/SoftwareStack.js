@@ -11,13 +11,12 @@ import {
   SiAdobepremierepro,
   SiAdobeaftereffects,
   SiMusescore,
-  SiAudacity,
-  SiSteam
 } from "react-icons/si";
 
 function SoftwareStack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
@@ -33,14 +32,12 @@ function SoftwareStack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiAbletonlive />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiMax />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMusescore />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAudacity />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobephotoshop />
@@ -51,9 +48,7 @@ function SoftwareStack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobeaftereffects />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSteam />
-      </Col>
+
     </Row>
   );
 }

@@ -28,16 +28,16 @@ function Home2() {
               <b className="purple">Python.</b>
               <br />
               <br />
-              Lately, I've been exploring{" "}
-              <b className="purple">Diffusers, Transformers, VAEs, GANs, CNNs</b>
+              Lately, I've been exploring AI architectures, including {" "}
+              <b className="purple">Diffusers, Transformers, VAEs, GANs, CNNs, </b>
               &{" "}
               <b className="purple">RNNs.</b>
               <br />
               <br />
               More specifically, I've been experimenting with{" "}
-              <b className="purple">Music Generation, Source Separation, Automatic Mixing/Mastering, </b>
+              <b className="purple">Music Generation, Source Separation, AI-Assisted Composition, </b>
               &{" "}
-              <b className="purple">AI-Assisted Composition</b>
+              <b className="purple">Generative Game Design</b>
               <br />
               <br />
             </p>

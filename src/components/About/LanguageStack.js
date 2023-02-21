@@ -8,11 +8,9 @@ import {
   SiJava,
   SiPython,
   SiJavascript,
-  SiTypescript,
   SiElixir,
   SiAssemblyscript,
   SiLua,
-  SiArduino,
 } from "react-icons/si";
 
 function LanguageStack() {
@@ -31,20 +29,16 @@ function LanguageStack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiPython />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <SiCsharp />
       </Col>
+
       <Col xs={4} md={2} className="tech-icons">
         <SiElixir />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiRacket />
       </Col>
-
       <Col xs={4} md={2} className="tech-icons">
         <SiC />
       </Col>
@@ -53,9 +47,6 @@ function LanguageStack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiLua />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiArduino />
       </Col>
 
     </Row>
