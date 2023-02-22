@@ -6,6 +6,13 @@ import {
   AiFillTwitterCircle,
   AiFillYoutube,
 } from "react-icons/ai";
+import {
+  FaSpotify,
+  FaSteam,
+  FaGithub,
+  FaYoutube,
+  FaTwitter
+} from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -25,7 +32,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillGithub />
+                <FaGithub />
               </a>
             </li>
             <li className="social-icons">
@@ -45,7 +52,7 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillYoutube />
+                <FaYoutube />
               </a>
             </li>
             <li className="social-icons">
@@ -55,7 +62,27 @@ function Footer() {
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillTwitterCircle />
+                <FaTwitter />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://open.spotify.com/user/sauron458?si=70c6055de7504ec6"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaSpotify />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://steamcommunity.com/id/wenbakefield/"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <FaSteam />
               </a>
             </li>
           </ul>

@@ -1,48 +1,90 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import profileImg from "../../Assets/profile.png";
 import Particle from "../Particle";
-import Home2 from "./Home2";
 import Type from "./Type";
+import Tilt from "react-parallax-tilt";
+import SocialButtons from "./SocialButtons";
 
 function Home() {
   return (
-    <section>
       <Container fluid className="home-section" id="home">
-        <Particle />
-        <Container className="home-content">
-          <Row>
-            <Col md={8} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hello there!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏻
-                </span>
-              </h1>
+      <Particle />
+      <Container className="home-content">
+        <Row>
+          <Col md={8}>
 
-              <h1 className="heading-name">
-                I'm
-                <strong className="main-name"> Ben Wakefield</strong>
-              </h1>
+            <h1 style={{ paddingBottom: 70, paddingTop: 30 }}>
+              Hello!{""}<span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
+            </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
-              </div>
-            </Col>
+            <h1 style={{ paddingBottom: 10 }}>
+              I'm<strong className="purple"> Ben Wakefield.</strong>
+            </h1>
 
-            <Col md={4} style={{ paddingBottom: 15 }}>
+            <div style={{ textAlign: "left" }}>
+              <Type />
+            </div>
+
+          </Col>
+
+          <Col md={4} style={{ paddingBottom: 5 }}>
+            <Tilt>
               <img
-                src={homeLogo}
-                alt="home pic"
+                src={profileImg}
+                alt="profile"
                 className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
-          </Row>
-        </Container>
+                style={{ maxHeight: "450px" }} />
+            </Tilt>
+          </Col>
+        </Row>
+        <Row>
+          <Col md={8} className="home-about-description">
+            <h1>A little about me...</h1>
+            <p className="home-about-body">
+              I studied <b className="purple">Computer Science & Music Technology </b>
+              at{" "}
+              <b className="purple">Northeastern University</b>
+              , bridging the gap between the two along the way.
+              <br />
+              <br />
+
+              I'm fluent in
+              {" "}<b className="purple">C++</b>,
+              {" "}<b className="purple">Java</b>,
+              {" "}<b className="purple">JavaScript</b>, &
+              {" "}<b className="purple">Python</b>.
+
+              <br />
+              <br />
+
+              Lately, I've been experimenting with AI architectures, including
+              {" "}<b className="purple">Diffusers</b>,
+              {" "}<b className="purple">Transformers</b>,
+              {" "}<b className="purple">Variational Autoencoders</b>,
+              {" "}<b className="purple">Generative Adversarial Networks</b>,
+              {" "}<b className="purple">Convolutional Neural Networks</b>, &
+              {" "}<b className="purple">Recurrent Neural Networks</b>.
+
+              <br />
+              <br />
+
+              More specifically, I've been experimenting with
+              {" "}<b className="purple">Music Generation</b>,
+              {" "}<b className="purple">Source Separation</b>,
+              {" "}<b className="purple">AI-Assisted Composition</b>, &
+              {" "}<b className="purple">Generative Game Design</b>.
+
+              <br />
+              <br />
+            </p>
+          </Col>
+        </Row>
+        <h1>Let's connect!</h1>
+        <br />
+        <SocialButtons />
       </Container>
-      <Home2 />
-    </section>
+    </Container>
   );
 }
 
