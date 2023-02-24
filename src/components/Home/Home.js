@@ -58,7 +58,7 @@ function Home() {
               <br />
               <br />
 
-              Lately, I've been experimenting with AI architectures, including
+              Lately, I've been exploring AI architectures, including
               {" "}<b className="purple">Diffusers</b>,
               {" "}<b className="purple">Transformers</b>,
               {" "}<b className="purple">Variational Autoencoders</b>,
