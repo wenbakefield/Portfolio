@@ -20,7 +20,7 @@ function Projects() {
             <ProjectCard
               imgPath={ddn}
               isBlog={false}
-              title="DeepDeadNet (DDN)"
+              title="DeepDeadNet"
               description="A web application which can generate music that sounds like the Grateful Dead through the power of Generative Adversarial Networks."
               ghLink="https://github.com/wenbakefield/deep-dead-net"
               demoLink="https://deepdead.net/"
