@@ -54,7 +54,7 @@ function Projects() {
               imgPath={momo}
               isBlog={false}
               title="MoMo"
-              description="A virtual meeting space where people can have video calls, play games, watch movies together, and share images. For our contribution, we added pets!"
+              description="A mobile application that serves as a portable, deeply customizable multi-effects unit for any instrument with an audio output."
               ghLink="https://github.com/wenbakefield/momo"
               demoLink="https://github.com/wenbakefield/momo/raw/main/Using%20MobMuPlat%20to%20Develop%20a%20Mobile%20Audio%20Effects%20Unit.pdf"              
             />
