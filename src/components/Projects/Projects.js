@@ -22,7 +22,7 @@ function Projects() {
               isBlog={false}
               title="DeepDeadNet"
               description="A web application which can generate music that sounds like the Grateful Dead through the power of Generative Adversarial Networks."
-              ghLink="https://github.com/wenbakefield/deep-dead-net"
+              ghLink="https://github.com/wenbakefield/deep-dead-net/blob/main/deepdeadnet.pdf"
               demoLink="https://deepdead.net/"
             />
           </Col>
@@ -42,9 +42,9 @@ function Projects() {
             <ProjectCard
               imgPath={covey}
               isBlog={false}
-              title="Covey Town"
+              title="Covey Critters"
               description="A virtual meeting space where people can have video calls, play games, watch movies together, and share images. For our contribution, we added pets!"
-              ghLink="https://github.com/neu-se/covey.town"
+              ghLink="https://github.com/wenbakefield/covey-critters"
               demoLink="https://app.covey.town/"              
             />
           </Col>
