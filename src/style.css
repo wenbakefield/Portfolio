@@ -1,16 +1,4 @@
 html {
-  --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  );
-
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
-
   --base-accent: #c13aff;
   --dark-accent: #55007c;
   --light-accent: #d476ff;
@@ -390,7 +378,7 @@ button:focus {
 /* Footer */
 /* --------- */
 .footer {
-  background-color: rgb(10, 4, 22);
+  background-color: rgba(16, 0, 32, 0.337);
   bottom: 0 !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;

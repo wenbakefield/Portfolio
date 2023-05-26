@@ -27,7 +27,7 @@ function Home() {
 
           </Col>
 
-          <Col md={4} style={{ paddingBottom: 5 }}>
+          <Col md={4} style={{ paddingBottom: 5, paddingTop: 50 }}>
             <Tilt>
               <img
                 src={profileImg}

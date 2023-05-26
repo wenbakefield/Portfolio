@@ -42,7 +42,7 @@ function Projects() {
             <ProjectCard
               imgPath={covey}
               isBlog={false}
-              title="Covey Critters"
+              title="Covey Town"
               description="A virtual meeting space where people can have video calls, play games, watch movies together, and share images. For our contribution, we added pets!"
               ghLink="https://github.com/wenbakefield/covey-critters"
               demoLink="https://app.covey.town/"              
