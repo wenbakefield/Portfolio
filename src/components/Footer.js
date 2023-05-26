@@ -1,10 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
-  AiFillGithub,
   AiFillLinkedin,
-  AiFillTwitterCircle,
-  AiFillYoutube,
 } from "react-icons/ai";
 import {
   FaSpotify,
@@ -21,7 +18,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed by Ben Wakefield</h3>
+          <h3>Benjamin Wakefield</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

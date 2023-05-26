@@ -4,7 +4,6 @@ import profileImg from "../../Assets/profile.png";
 import Particle from "../Particle";
 import Type from "./Type";
 import Tilt from "react-parallax-tilt";
-import SocialButtons from "./SocialButtons";
 
 function Home() {
   return (
@@ -61,7 +60,6 @@ function Home() {
               Lately, I've been exploring AI architectures, including
               {" "}<b className="purple">Diffusers</b>,
               {" "}<b className="purple">Transformers</b>,
-              {" "}<b className="purple">Variational Autoencoders</b>,
               {" "}<b className="purple">Generative Adversarial Networks</b>,
               {" "}<b className="purple">Convolutional Neural Networks</b>, &
               {" "}<b className="purple">Recurrent Neural Networks</b>.
@@ -80,9 +78,8 @@ function Home() {
             </p>
           </Col>
         </Row>
-        <h1>Let's connect!</h1>
         <br />
-        <SocialButtons />
+        <br />
       </Container>
     </Container>
   );

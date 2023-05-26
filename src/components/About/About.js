@@ -7,14 +7,17 @@ import LanguageStack from "./LanguageStack";
 import FrameworkStack from "./FrameworkStack";
 import InstrumentStack from "./InstrumentStack";
 import SpotifyStack from "./SpotifyStack";
+import LibraryStack from "./LibraryStack";
 
 function About() {
   return (
     <Container fluid className="about-section">
       <Particle />
       <Container>
-        <h1 className="project-heading"><strong className="purple">Languages</strong> I write in</h1>
+        <h1 className="project-heading"><strong className="purple">Languages</strong> I speak</h1>
         <LanguageStack />
+        <h1 className="project-heading"><strong className="purple">Libraries</strong> I call upon</h1>
+        <LibraryStack />
         <h1 className="project-heading"><strong className="purple">Frameworks</strong> I build with</h1>
         <FrameworkStack />
         <h1 className="project-heading"><strong className="purple">Software</strong> I rely on</h1>

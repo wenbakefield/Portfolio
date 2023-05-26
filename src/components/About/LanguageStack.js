@@ -1,7 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiRacket,
   SiCplusplus,
   SiCsharp,
   SiC,
@@ -9,8 +8,9 @@ import {
   SiPython,
   SiJavascript,
   SiElixir,
-  SiAssemblyscript,
+  SiTypescript,
   SiLua,
+  SiRuby,
 } from "react-icons/si";
 
 function LanguageStack() {
@@ -24,29 +24,29 @@ function LanguageStack() {
         <SiJava />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiJavascript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <SiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiCsharp />
+        <SiJavascript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTypescript />
       </Col>
 
+      <Col xs={4} md={2} className="tech-icons">
+        <SiCsharp />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRuby />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiElixir />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRacket />
+        <SiLua />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiC />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiAssemblyscript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiLua />
       </Col>
 
     </Row>

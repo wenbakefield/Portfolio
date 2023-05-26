@@ -1,33 +1,46 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
-  SiAngular,
-  SiNextdotjs,
-  SiDjango,
-  SiRubyonrails
+  SiReact,
+  SiLodash,
+  SiNumpy,
+  SiPandas,
+  SiTensorflow,
+  SiKeras,
+  SiPytorch,
+  SiBootstrap,
 } from "react-icons/si";
-import { FaPhoenixFramework } from "react-icons/fa";
 
-function FrameworkStack() {
+function LibraryStack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAngular />
+        <SiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiLodash />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiDjango />
+        <SiNumpy />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRubyonrails />
+        <SiPandas />
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBootstrap />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaPhoenixFramework />
+        <SiTensorflow />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiKeras />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiPytorch />
       </Col>
     </Row>
   );
 }
 
-export default FrameworkStack;
+export default LibraryStack;

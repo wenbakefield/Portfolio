@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/profile.png";
+import logo from "../Assets/profile_small.png";
 import { Link } from "react-router-dom";
 import { ImBlog } from "react-icons/im";
 import {
